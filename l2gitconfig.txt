@@ -1,0 +1,30 @@
+=> Git Version Check 
+git --version 
+git Version 
+
+=>Update Git (For Ubuntu)
+sudo apt remove git 
+sudo add-apt-repository ppa:git-core/ppa -y 
+sudo apt-get update 
+sudo apt-get install git -y 
+
+
+=>User Config (name/email)
+git config --global user.name "Hsu Myat Moe"
+git config --global user.email "hsumyatm7308@gmail.com"
+git config --local user.name "Aitch"
+git config --local user.email "mhs537@gmail.com"
+
+git config --global user.name 
+git config --global user.email 
+git config --local user.name 
+git config --local user.email 
+
+
+=>List all Variables in config gile 
+git config -l 
+git config -l 
+git config -l --show-origin 
+
+
+30GT 
