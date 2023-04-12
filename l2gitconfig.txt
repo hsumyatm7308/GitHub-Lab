@@ -21,10 +21,20 @@ git config --local user.name
 git config --local user.email 
 
 
+
+
 =>List all Variables in config gile 
 git config -l 
 git config -l 
 git config -l --show-origin 
+
+
+
+
+
+
+
+
 
 
 30GT 

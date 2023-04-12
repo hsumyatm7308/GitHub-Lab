@@ -23,4 +23,6 @@ ls -la
 git status 
 
 =>Set Default Branch 
-git config --global init.defaultBranch main
+git config --global init.defaultBranch main  
+
+
