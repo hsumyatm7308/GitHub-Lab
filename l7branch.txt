@@ -1,0 +1,71 @@
+=>Branch 
+
+=>Create Branch=Syntax 
+git branch branchname
+
+mkdir lesson5
+git init 
+git status 
+
+
+touch file1.txt 
+git status 
+git add file2.txt 
+git commit -m "added file1"
+git status 
+
+git branch
+
+
+git branch bugfix
+git branch 
+
+git branch dev 
+git branch 
+
+Note:-b = Create new branch
+git checkout -b new-feature
+git branch 
+
+
+
+=>Switch 
+git checkout bugfix 
+git branch
+git status 
+
+git checkout dev 
+git branch 
+git status 
+
+
+Note: choose htar tae branch ko pal change loh ya tal 
+=>Rename Branch 
+git branch 
+git branch -m my-feature 
+git branch 
+git checkout bugfix 
+git branch -m bugerror 
+git branch
+
+
+Note : choose htar tae branch ka delete loh ma ya buu 
+
+=>Delete Branch 
+=Syntax 
+git branch --delete branchname 
+or 
+git branch -d branchname 
+or 
+git branch -D branchname 
+
+
+git branch 
+git branch --delete dev 
+git branch 
+git branch -d my-feature 
+git branch 
+git checkout main 
+git branch 
+git branch -D bugerror 
+git branch 
