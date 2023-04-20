@@ -1,0 +1,76 @@
+=>Rebase 
+
+mkdir lesson11 
+cd lesson11 
+
+git init 
+
+touch file1.txt 
+touch file2.txt 
+
+vim file1.txt 
+Edit :write down 
+this is the first line 
+this is the second line 
+
+esc > :wq 
+
+vim file2.txt 
+edit :write down 
+this is the first comment 
+this is the second comment 
+
+esc > :wq 
+
+git status 
+git status -s 
+
+git add *
+git status
+git commit -m "A file 1 2"
+git status
+ls 
+
+
+
+
+
+
+git checkout -b new-feature 
+git branch
+
+touch file3.txt 
+touch file4.txt 
+
+vim file1.txt 
+Edit :write down 
+this is the first post 
+this is the second post 
+
+esc > :wq 
+
+vim file2.txt 
+edit :write down 
+this is the first expression 
+this is the second expression
+
+esc > :wq 
+
+git status 
+git status -s 
+
+git add *
+git status
+git commit -m "A file 3 4 "
+git status
+ls 
+
+git checkout main 
+git branch 
+ls 
+
+git merge new-feature
+git branch 
+ls 
+
+20RB 
