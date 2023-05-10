@@ -1,0 +1,19 @@
+=>Git Tag 
+(i) Lightweight Tags - A Name Only 
+(ii) Annotated Tags - Allows yo to adda messages explaining the tag 
+
+(i)Lightweight 
+git tag tagname 
+
+(ii)Annotated 
+git tag -a tagname -m "message" 
+
+
+=>Delete
+git tag --delete 
+or 
+git tag -d tagname
+
+
+=>List 
+git tag --list 
