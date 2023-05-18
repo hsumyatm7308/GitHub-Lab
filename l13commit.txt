@@ -1,0 +1,213 @@
+
+=>Commit 
+
+mkdir lesson13 
+git init 
+
+touch file0.txt 
+
+vim file0.txt
+this is first line 
+this is second line 
+
+cat file0.txt (or) more file0,txt 
+
+git add *
+git commit -m "file 0 addeed" 
+
+git status 
+git branch 
+git log --all --oneline 
+
+
+touch file1.txt 
+touch file2.txt 
+
+vim file1.txt
+this is first post 
+this is second post 
+
+vim file2.txt
+this is first comment 
+this is second comment 
+
+cat file1.txt (or) more file1.txt 
+
+git add *
+git commit -m "file 1 2 addeed" 
+
+git status 
+git branch 
+git log --all --oneline 
+
+
+
+
+vim file0.txt
+this is third line 
+this is fourth line 
+
+
+vim file2.txt
+this is third comment 
+this is third comment 
+
+
+git add *
+git commit -m "M 0 2" 
+
+git status 
+git branch 
+git log --all --oneline 
+
+ls 
+
+cat file0.txt 
+cat file1.txt 
+cat file2.txt 
+
+git checkout bafe816 
+ls (result = file0.txt)
+cat file0.txt 
+
+git log --all --oneline
+
+
+checkout လုပ်ပြီးသွားရင် main branch ထဲမှာ sar ရှိနေလား စစ် 
+
+
+git checkout a45d69e 
+ls (result = file0.txt,file1.txt,file2.txt)
+cat file0.txt 
+cat file1.txt 
+cat file2.txt 
+
+
+git log --all --oneline
+
+git status 
+git branch 
+git checkout main 
+
+touch file3.txt 
+
+vim file3.txt
+this is first commit 
+this is second commit 
+
+git status
+
+git add * 
+
+git status
+
+cat file3.txt 
+
+git restore --staged file3.txt 
+
+git status 
+
+cat file3.txt 
+
+git commit -m "file 3 added"
+
+vim file3.txt 
+this is third react 
+this is fourth react 
+
+git status 
+
+git add* 
+
+git status
+
+cat file3.txt 
+
+git restore file3.txt 
+
+git status 
+
+cat file3.txt 
+
+git status 
+
+git reset HEAD file3.txt  = git restore --staged file3.txt 
+
+git status 
+cat file3.txt 
+
+git add * 
+
+git commit -m "M f3"
+
+git status 
+
+cat file3.txt 
+
+git log --all --oneline 
+
+git reset 22d648d --soft (--soft    ->  already staged area = git add * )
+
+git status 
+
+git log --all --oneline 
+
+git restore --staged file3.txt 
+
+git status 
+git add * 
+
+git status
+git commit -m "m f3 again" 
+
+git log --all --oneline 
+
+cat file3.txt 
+
+git show 
+
+
+git reset 22d648d --soft (already add)
+
+
+git status 
+
+ls 
+
+cat file3.txt 
+
+git commit -m "A f3 agin "
+
+git statu 
+
+cat file3.txt 
+
+git log --all --oneline 
+git reset a45d69e --mixed (unstaged area  (red line))
+git status 
+
+git add * 
+git commit -m "M 0 2 A 3"
+
+git status 
+
+git log --all --oneline 
+
+
+
+နောက်ဆုံးအခြေနေကို ပြန်ခေါ်ပြီး အဲ့အခြေနေအားလုံးကို ကော်မစ်တစ်ခုတည်း ပေါင်းပေးလိုက်တာ 
+
+=>git reflog  
+
+git reflog 
+
+git reset --hard HEAD@{8}
+
+ls 
+
+git log --all --oneline 
+
+cat file3.txt 
+
+
+18FG 

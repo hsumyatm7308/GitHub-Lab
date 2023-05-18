@@ -205,4 +205,44 @@ git tag --list
 git log 
 
 
-17GT 
+git status 
+
+git tag --list 
+
+git tag -n 
+
+git show v1.0
+
+git log --all --oneline 
+
+git tag -a v1.5 aaf7825
+this is new v1.5 
+
+git tag -n 
+
+git log --all --oneline 
+
+
+Already Exit 
+git tag -a v1.5 aaf7825
+this is new version v1.5 
+git tag -n 
+git log --all --oneline 
+
+=>change tag to new commit 
+git tag -a v1.5 -f f1bf43e
+this is new version v1.5 for file 0 added 
+git log --all --oneline 
+
+git show v1.5 
+
+git log --all --oneline 
+
+git show v1.3 
+git show v1.0 
+
+git tag -d v1.0 
+
+git log --all --oneline 
+
+git show v1.3 
