@@ -1,4 +1,5 @@
 
+
 =>Create New Folder
 mkdir lesson 
 
@@ -37,4 +38,3 @@ git status
 
 git reset country.txt computer.txt 
 
-git status 
