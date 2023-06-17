@@ -1,0 +1,137 @@
+mkdir githublesson2
+
+git init
+git status
+git remote add origin git@github.com:nwayshwesinhan/githublesson2.git
+git add index.html 
+git status 
+git commit -m "A index.html"
+git push -u origin master
+
+
+=>Forking
+nway > dlt 
+go to Repository 
+click > Add file > Create new file > Cancel Changes
+
+
+
+=>Delete Fork Repository
+nway  > Repository > settings > Danger Zone > Delete this repository 
+
+
+=>Inviting Collaborators 
+dlt account > githublesson2 > Settings > Collaborators > Add people , tinhtutaun.dlt@gmail.com 
+
+
+=>Join/Accept Inviting
+kotha account > profile log > Your Organizations > Join > Accept Invition
+
+
+=> Add New File From PC 
+dlt account
+file0.txt
+write down = Hello i am file0 
+
+git status
+git add file0.txt 
+git commit -m "A file0 from dlt by pc"
+git push -u origin master
+
+
+=> Update New File From PC 
+dlt account
+file0.txt
+write down = this is new post 1
+
+git status
+git add file0.txt 
+git commit -m "Mfile0 from dlt by pc"
+git push -u origin master 
+
+
+
+=>Add New File By Collaborators
+kotha account > githublesson2 from website 
+click "Add file > create new file" 
+file name "file1kotha.txt"
+write down = Hello i am file1 created by kotha 
+click "Commit directory ... main" > Commit Changes
+
+
+=>Pull 
+dlt account by pc 
+git status
+git pull origin
+*So you will see new file 1 downloaded from remote repository to local repository
+
+
+
+mkdir githublesson3
+
+git init 
+git status 
+git remote add origin git@github.com:nwayshwesinhan/githublesson3.git
+git add index.html 
+git status 
+git commit -m "A index.html"
+git push -u origin master
+
+
+=>Fork 
+kotha account > dlt account > githublesson3 > Fork > Create Fork
+
+
+=>Create 
+kotha account > Repository > githublesson3 from website
+click Add file > create new file > file1kotha.txt 
+write down : hello i am file1 created by kotha 
+click Commit Changes
+Title Commit = A file1 from web by kotha 
+Description = i created new file1 from website 
+click "Commit directory ... main branch" > Commit Changes 
+
+
+=>Edit 
+kotha account > Repository > githublesson3 from website
+click index.html
+edit  : This is Lesson 1
+click Commit Changes
+Title Commit = M title from web by kotha 
+Description = i modifyed title from website
+click "Propose Changes"
+
+
+
+=>Create Pull Request from Fork User to Repository Owner 
+
+kotha account > githublesson3 from website 
+click Pull Request Tab > New pull request 
+click "Create pull request"
+Title : Hay Owner!!! i created new file and edited index file please check 
+Description : Dear Admin,
+            for your web improvement !! i added new file and modifyed index.html.
+            Best Regards 
+
+checked to main branch 
+click "Create pull request"
+
+
+datalandtechnology > githublesson3 > pull reuqest > comfirm merge 
+
+
+
+=>Create
+kotha account >  githublesson3 from website
+click Add file > create new file > file2kotha.txt 
+write down : hello i am file2 created by kotha 
+click Commit Changes
+Title Commit = A file2 from web by kotha 
+Description = i created new file1 from website 
+click "Commit directory ... main branch" > Commit Changes 
+
+
+=>Public to Local Repository 
+git pull origin main 
+
+15PL 
