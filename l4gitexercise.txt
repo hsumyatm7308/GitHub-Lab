@@ -103,7 +103,8 @@ cat programming.txt
 
 
 
-=======
+
+==============
 
 git init lesson2 
 linux = ls 
@@ -208,4 +209,4 @@ cat programming.txt
 
 
 
->>>>>>> b6601dfd672eeec02712b3820bac0b20838e851f
+

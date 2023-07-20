@@ -134,4 +134,126 @@ click "Commit directory ... main branch" > Commit Changes
 =>Public to Local Repository 
 git pull origin main 
 
-15PL 
+
+
+
+
+
+
+
+
+
+
+mkdir githublesson4
+git init 
+git remote add orgin "      "
+
+
+touch file0.txt 
+vim file0.txt 
+
+Write down : 
+1 this is the first line 
+2. this is the second line 
+
+cat file0.txt (or) more file0.txt 
+git add file0.txt 
+git commit -m "file 0 added from dlt terminal" 
+git push -u origin main 
+
+
+
+
+kotha account > dlt account > githublesson4 > fork > create fork 
+
+
+
+=>Create
+kotha account >  githublesson4 from website
+click Add file > create new file > file1kotha.css 
+write down : hello i am file1 created by kotha 
+click Commit Changes
+Title Commit = A file1 from web by kotha 
+Description = i created new file1 from website 
+click "Create a new branch for this commit..." >  "kotha_css1"  >Commit Changes 
+
+
+
+
+=>Create Pull Request from Fork User to Repository Owner 
+
+kotha account > githublesson4 from website 
+click Pull Request Tab > compare &  New pull request 
+click "Create pull request"
+Title : Hay Owner!!! i created new file and edited index file please check 
+Description : Dear Admin,
+            for your web improvement !! i added new file and modifyed index.html.
+            Best Regards 
+
+
+click "Create pull request" 
+
+dlt > edit from terminal to file1.txt 
+
+git pull origin main 
+
+
+
+
+=>Create
+kotha account >  githublesson4 from website
+click Add file > create new file > file2kotha.css 
+write down : hello i am file1 created by kotha 
+click Commit Changes
+Title Commit = A file2 from web by kotha 
+Description = i created new file1 from website 
+click "Create a new branch for this commit..." >  "kotha_css1"  >Commit Changes 
+
+:Note :: but branch can't same name (branch name changed to kotha_css1-1)
+
+
+
+
+
+
+
+=>Create Pull Request from Fork User to Repository Owner 
+
+kotha account > githublesson4 from website 
+click Pull Request Tab > compare &  New pull request 
+click "Create pull request"
+Title : Hay Owner!!! i created new file and edited index file please check 
+Description : Dear Admin,
+            for your web improvement !! i added new file and modifyed index.html.
+            Best Regards 
+
+
+click "Create pull request" 
+
+dlt > edit from terminal to file2.txt 
+
+git pull origin main 
+
+
+
+
+
+
+
+=>Delte/Restore Branch in pull request
+
+Kotha > dlt > githublesson4 from website
+Pull request > Closed > choose title > Click Delete branch  
+Pull request > Closed > choose title > Click Restore branch 
+
+
+
+
+
+
+
+
+
+
+----------------------------------------- 
+
