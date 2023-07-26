@@ -220,6 +220,47 @@ ls
 
 ----------------------------------------- 
 
-20BB 
+=>Renae Branch
+
+git branch 
+git checkout new-feature 
+git branch 
+git branch -m my-feature 
+git branch 
+
+-----------------------------------
+//Local mar tot name chage twor tal 
+
+touch file3.txt 
+ls 
+write:down: Hello I am file3 
+git status 
+git add * 
+git commit "A file3 from terminal "
+git status 
+git push -u origin my-feature     // global mar  new branch yuu twor tal 
+
+----------------------------------
+
+=>Rename branch from local & remote 
+git branch 
+git checkout bugfix 
+git branch 
+
+git branch -m bugfix codefix 
+git branch 
+
+=>Delete the old branch on remote 
+
+git push -u origin --delete bugfix 
+or 
+git push ou origin -d bugfix 
+or 
+git push -u origin -D bugfix 
+or 
+git push -u origin :bugfix 
+
+
+
 
 
