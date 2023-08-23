@@ -1,0 +1,23 @@
+=>SSH Register 
+(i) Github Config 
+(ii)Export SSH Key from PC 
+
+=>(i)Github Config 
+user > setting > SSH and GPG  > Added New SSH  Key 
+
+=>(ii)Export SSH Key from PC 
+open terminal 
+
+writ :: 
+ssh-keygen --help
+
+
+
+ssh-keygen -t rsa -b (byite for how mush) 4096 -C "hsumyat"( name for what)
+
+ssh-keygen -t rsa  (rsa = encript  tegnit)
+              dsa 
+              ed25519
+
+
+2 file  ya lar mal 

@@ -1,0 +1,267 @@
+
+**(working dir > staging area > local repo > remote repo
+         git add    > git commit   > git push )
+
+git --version
+
+git config --local user.name "zmh"
+git config --local user.email "xioniven@gmail.com"
+
+git config --local user.name
+git config --local user.email
+
+=>Check List all Variables
+git config -l
+git config -l --show-origin
+
+=>Remove list all Variables
+git config --local --unset user.name
+git config --local --unset user.email
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config --local user.name
+git config --local user.email
+
+git config -l --show-origin
+
+git init lesson1
+cd lesson1
+
+=>Check Folder Dir
+for window = dir
+for linux = ls
+for linux = ls -la (or) ls -al
+
+git status
+
+=>Set Default Branch
+git config --global init.defaultBranch master(or)main
+
+File Create
+for linux = vim lesson1.txt
+            i > Esc :wq
+
+=>Check Folder Dir
+for window = dir
+for linux = ls
+for linux = ls -la (or) ls -al
+
+git status
+
+git add lesson1.txt
+
+git status
+
+git commit -m "adding lesson1.txt"
+
+git status
+
+git log
+
+
+=>Create New Branch
+git branch new-feature
+
+=>Check All Branch List
+git branch
+
+git log
+
+File Create
+for linux = vim lesson1.txt
+            i > Esc > :wq
+
+git status
+
+File Create
+for linux = vim lesson2.txt
+            i > Esc > :wq
+
+git status
+
+=>Change Default Branch
+git checkout new-feature(branch name)
+
+git status
+
+git add lesson1.txt
+
+git status
+
+git commit -m "add 2 countries lesson1.txt"
+
+git status
+
+git log
+
+git add lesson2.txt
+
+git status
+
+git commit -m "adding lesson2.txt"
+
+git status
+
+dir (or) for linux = ls
+
+cat lesson1.txt
+cat lesson2.txt
+
+git checkout main(or)master
+
+git status
+
+dir(or)ls
+
+cat lesson1.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+**(working dir > staging area > local repo > remote repo
+         git add    > git commit   > git push )
+
+git --version
+
+git config --local user.name "zmh"
+git config --local user.email "xioniven@gmail.com"
+
+git config --local user.name
+git config --local user.email
+
+=>Check List all Variables
+git config -l
+git config -l --show-origin
+
+=>Remove list all Variables
+git config --local --unset user.name
+git config --local --unset user.email
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config --local user.name
+git config --local user.email
+
+git config -l --show-origin
+
+git init lesson1
+cd lesson1
+
+=>Check Folder Dir
+for window = dir
+for linux = ls
+for linux = ls -la (or) ls -al
+
+git status
+
+=>Set Default Branch
+git config --global init.defaultBranch master(or)main
+
+File Create
+for linux = vim lesson1.txt
+            i > Esc :wq
+
+=>Check Folder Dir
+for window = dir
+for linux = ls
+for linux = ls -la (or) ls -al
+
+git status
+
+git add lesson1.txt
+
+git status
+
+git commit -m "adding lesson1.txt"
+
+git status
+
+git log
+
+
+=>Create New Branch
+git branch new-feature
+
+=>Check All Branch List
+git branch
+
+git log
+
+File Create
+for linux = vim lesson1.txt
+            i > Esc > :wq
+
+git status
+
+File Create
+for linux = vim lesson2.txt
+            i > Esc > :wq
+
+git status
+
+=>Change Default Branch
+git checkout new-feature(branch name)
+
+git status
+
+git add lesson1.txt
+
+git status
+
+git commit -m "add 2 countries lesson1.txt"
+
+git status
+
+git log
+
+git add lesson2.txt
+
+git status
+
+git commit -m "adding lesson2.txt"
+
+git status
+
+dir (or) for linux = ls
+
+cat lesson1.txt
+cat lesson2.txt
+
+git checkout main(or)master
+
+git status
+
+dir(or)ls
+
+cat lesson1.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> b6601dfd672eeec02712b3820bac0b20838e851f

@@ -1,0 +1,57 @@
+mkdir lesson1
+
+=Create 
+index.html
+
+=Write Down
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 1</title>
+        <style>
+            h1{
+                color: blue;
+            }
+            p{
+                color: steelblue;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Gitlab Lesson</h1>
+        <p>Hello , Are you ready to use Gitlab.</p>
+    </body>
+</html>
+
+
+=>In Terminal
+git init 
+git status
+
+
+=>DLT Acccount > Github > New Repository > githublesson1 (public)
+
+
+=>In Terminal
+git remote add origin git@github.com:nwayshwesinhan/githublesson1.git
+git add index.html
+git status
+git commit -m "A index.html"
+git push -u origin main/master
+
+
+===Change something in index.html from github.com 
+commit from "M from githubsite index.html"
+
+
+===Change something in index.html from local public
+git status
+git add .
+git status
+git commit -m "M from local pc index.html"
+git push -u origin master
+**error**
+
+git pull origin master
+**unchange**

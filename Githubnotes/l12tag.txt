@@ -1,0 +1,316 @@
+=>Git Tag 
+(i) Lightweight Tags - A Name Only 
+(ii) Annotated Tags - Allows yo to adda messages explaining the tag 
+
+(i)Lightweight 
+git tag tagname 
+
+(ii)Annotated  
+git tag -a tagname -m "message" 
+
+
+=>Delete
+git tag --delete 
+or 
+git tag -d tagname
+
+
+=>List 
+git tag 
+(or)
+git tag --list 
+
+git tag mytag 
+git tag yourtag 
+git tag --list 
+
+
+git log --all --oneline 
+git tag --delete mytag 
+git tag -d yourtag 
+
+mkdir lesson12 
+
+git init 
+
+vim file0.txt 
+Edit : write down 
+Before Version 1.0 
+1.this is the first line 
+2.this is the second line 
+
+cat file0.txt 
+
+git add * 
+git commit -m 'file 0 added"
+
+git status 
+git branch 
+git log 
+
+git tag v1.0
+
+git tag --list (or) git tag 
+
+git show v1.0 
+
+
+
+touch file1.txt 
+touch file2.txt 
+
+vim file1.txt 
+Edit ; wroe down 
+After Version 1.0 
+this is the first post 
+this is the second post 
+
+vim file2.txt 
+Edit:write down 
+After Version 1.0 
+this is the first comment 
+this is the second comment 
+
+git status 
+git status -s 
+
+git add * 
+git commit -m "file 1 2 added"
+
+git status 
+git branch 
+git log 
+
+
+git tag v1.1 
+
+git tag --list 
+
+git status
+git branch 
+git log 
+
+git tag --list 
+
+git show v1.0 
+git show v1.1 
+
+git diff v1.0 v1.1
+
+
+
+vim file 0.txt 
+Edit :write down 
+Befor Version 1.0 
+this is the third line 
+this is the fourth line 
+
+vim file2.txt 
+Edit :write down 
+Befor Version 1.0 
+this is the third post 
+this is the fourth post 
+
+git add * 
+git commit -m "M 1 2"
+
+git tag  
+
+git status 
+git branch 
+git log 
+
+git show v1.0 
+git show v1.1
+git show v1.2 
+
+git diff v1.0 v1.2 
+
+
+(to see note)
+git tag -note
+
+touch file3.txt
+touch file4.txt 
+
+
+vim file3.txt 
+Edit :write down 
+Befor Version 1.3
+this is the third react 
+this is the fourth react 
+
+vim file4.txt 
+Edit :write down 
+Befor Version 1.3
+this is the third share 
+this is the fourth share
+
+git status 
+git status -s 
+
+git add *
+git commit -m "file 3 4 added"
+
+git status 
+git branch 
+git log 
+
+
+git tag -a v1.3 
+edit : 
+this is new update of the version 1.3 
+thank you 
+#sample comment  
+
+git tag 
+
+git status 
+git branch 
+git log 
+
+git show v1.3 
+
+git tag -n
+
+(note edit)
+git tag -a v1.3 
+git tag -a v1.3 -f 
+Edit: 
+in this case ! we added file 3 and 4
+
+git tag -n
+
+
+
+touch file5.txt 
+
+vim file5.txt 
+Edit :write down 
+Befor Version 1.3
+this is the first save 
+this is the second save 
+
+git add * 
+git commit -m "file 5 added" 
+
+git status 
+git branch 
+git log 
+
+git tag -a v1.4 -m "in this case ! we added file5" 
+
+git tag --list 
+
+git log 
+
+
+git status 
+
+git tag --list 
+
+git tag -n 
+
+git show v1.0
+
+git log --all --oneline 
+
+git tag -a v1.5 aaf7825
+this is new v1.5 
+
+git tag -n 
+
+git log --all --oneline 
+
+
+Already Exit 
+git tag -a v1.5 aaf7825
+this is new version v1.5 
+git tag -n 
+git log --all --oneline 
+
+=>change tag to new commit 
+git tag -a v1.5 -f f1bf43e
+this is new version v1.5 for file 0 added 
+git log --all --oneline 
+
+git show v1.5 
+
+git log --all --oneline 
+
+git show v1.3 
+git show v1.0 
+
+git tag -d v1.0 
+
+git log --all --oneline 
+
+git show v1.3 
+
+
+= update to remote repositon
+
+new :old
+git push -u origin v1.1 :v1.0 
+
+
+-------------------------------------
+
+=>Create & Manage Branch From Github 
+
+cd lesson3 
+cd githublesson7 
+git status 
+git chekout main 
+git status 
+git branch 
+git chekout bugfix //error : pathcpec "bugfix' did not match an y files 
+
+github > datalandnology > repostiory > githublessson7b > branch > click create 
+bugfix
+stable 
+Note: talikg about source 
+developer
+
+git status 
+git branch 
+git checkoit bugfix //error : pathspec 'bugfix' did not match any file(s) know: 
+
+
+git pull origin 
+git status 
+git branch 
+git checkout bugfix 
+git status 
+git branch 
+ls 
+git checkout stable 
+git branch 
+ls 
+git checkout developer 
+git branch 
+ls 
+cat file2.txt
+
+=>Tag 
+
+git status 
+git chekout main 
+git log 
+git tag --list 
+
+
+github > datalandnology > repostiory > githublessson7b > tags > click "Create new relaeace" > choose a tag
+v1.0 and write description(optional)
+click "Public releases" 
+
+
+git status 
+git tag --list 
+git pull origin 
+git status 
+git log 
+git tag --list 
+
+
+----------------

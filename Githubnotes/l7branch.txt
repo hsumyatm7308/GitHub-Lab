@@ -1,0 +1,276 @@
+=>Branch 
+
+=>Create Branch=Syntax 
+git branch branchname
+
+mkdir lesson5
+git init 
+git status 
+
+
+touch file1.txt 
+git status 
+git add file2.txt 
+git commit -m "added file1"
+git status 
+
+git branch
+
+
+git branch bugfix
+git branch 
+
+git branch dev 
+git branch 
+
+Note:-b = Create new branch
+git checkout -b new-feature
+git branch 
+
+
+
+=>Switch 
+git checkout bugfix 
+git branch
+git status 
+
+git checkout dev 
+git branch 
+git status 
+
+
+Note: choose htar tae branch ko pal change loh ya tal 
+=>Rename Branch 
+git branch 
+git branch -m my-feature 
+git branch 
+git checkout bugfix 
+git branch -m bugerror 
+git branch
+
+
+Note : choose htar tae branch ka delete loh ma ya buu 
+
+=>Delete Branch 
+=Syntax 
+git branch --delete branchname 
+or 
+git branch -d branchname 
+or 
+git branch -D branchname 
+
+
+git branch 
+git branch --delete dev 
+git branch 
+git branch -d my-feature 
+git branch 
+git checkout main 
+git branch 
+git branch -D bugerror 
+git branch 
+
+
+-----------------------------------
+
+=>Branch working with Remote Repository 
+
+cd githublesson 
+mkdir lesson3 
+cd lesson3 
+mkdir githublesson5 
+
+
+
+
+git init 
+git status 
+git remote add origin 
+git remote -v 
+
+
+=>Add New File from PC 
+touch file0.txt 
+ls 
+echo "Hello i am file0" > file0.txt 
+cat file0.txt 
+
+git status 
+git add file0.txt 
+
+git commit -m "Add file0 from pc " 
+git status 
+
+git branch 
+git branch bugfix  (in local repository)
+git branch 
+
+git push -u origin main 
+
+
+=>Switch 
+git checkout bugfix 
+git branch 
+git status 
+
+vim file0.txt 
+Write down : i already bug fixed ; 
+
+cat file0.txt 
+git status 
+git add file0.txt 
+git commit -m "M file0 bugfixed" 
+git satus 
+cat file0.txt 
+
+git checkout main 
+git branch 
+git status 
+cat file0.txt 
+
+=>Push Local branch to Remote Repository 
+git push -u origin bugfix 
+
+
+=>Merge Git Branch to main 
+git checkout main 
+git branch 
+git status 
+cat file0,txt 
+git merge bugfix 
+
+
+git status 
+git add file0.txt 
+git commit -m "Merge file0 bugfix main  "
+git push -u origin main 
+
+
+git checkout -b new-feature 
+git branch 
+
+
+touch file1.txt 
+ls 
+echo "Hello I am file1" > file1.txt 
+cat file1.txt 
+git status 
+git add file1.txt 
+git commit -m "added file1 from pc" 
+git status 
+
+git checkout main 
+git branch 
+ls 
+cat file0.txt 
+git status 
+
+git push -u origin main //Terminal Mesage = Everything up-to-date 
+git push -u origin new-feature //can push main for new-feature 
+
+
+
+
+
+git branch 
+git status 
+ls 
+git merge new-feature  
+ls 
+cat file0.txt 
+cat file1.txt  
+
+
+git status 
+git add * 
+git commit -m "Merge file1 newfeature  main  "
+git push -u origin main 
+
+
+git checkout bugfix 
+git branch 
+ls 
+touch file2.txt 
+ls 
+echo "Hello i am bugfix file2" > file2.txt 
+cat file2.txt 
+git status 
+git add file2.txt 
+git commit -m "'add file2 from pc "
+git satus 
+git push -u origin bugfix 
+
+
+=>Remote Repository merge to Local Repository 
+dlt > Click "Compare & Pull request" 
+write down title = A file2 from pc 
+write down description = I want to merge file 2 from web 
+Click "Create pull request" 
+
+Click "Pull request" Tag 
+Click "A file2 from pc"
+Click Merge pull request 
+Click "Comfirm merge" 
+
+
+git checkout main 
+ls 
+git pull origin 
+ls 
+
+----------------------------------------- 
+
+=>Renae Branch
+
+git branch 
+git checkout new-feature 
+git branch 
+git branch -m my-feature 
+git branch 
+
+-----------------------------------
+//Local mar tot name chage twor tal 
+
+touch file3.txt 
+ls 
+write:down: Hello I am file3 
+git status 
+git add * 
+git commit "A file3 from terminal "
+git status 
+git push -u origin my-feature     // global mar  new branch yuu twor tal 
+
+----------------------------------
+
+=>Rename branch from local & remote 
+git branch 
+git checkout bugfix 
+git branch 
+
+git branch -m bugfix codefix 
+git branch 
+
+=>Delete the old branch on remote 
+
+git push -u origin --delete bugfix 
+or 
+git push ou origin -d bugfix 
+or 
+git push -u origin -D bugfix 
+or 
+git push -u origin :bugfix 
+
+git branch 
+touch file4.txt 
+ls 
+write down: Hello I am file 4
+git status 
+git add * 
+git commit "A file4 from terminal: 
+git status 
+git push -u origin codefix 
+
+
+
+
+

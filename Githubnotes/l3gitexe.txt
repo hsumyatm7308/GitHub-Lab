@@ -1,0 +1,58 @@
+
+git init lesson1 
+cd lesson1 
+
+git config --local user.name 'aitch'
+git config --local user.email 'aitch7308@gmail.com'
+
+git config --local user.name 
+git config --local user.email
+
+
+=>Check List all Variables 
+git config -l
+git config -l --show-origin
+
+
+Remove List All Variables
+git config --local --unset user.name
+git config --local --unset user.email
+
+ls 
+ls -la 
+
+git status 
+
+=>Set Default Branch 
+git config --global init.defaultBranch main  
+
+
+=======
+git init lesson1 
+cd lesson1 
+
+git config --local user.name 'aitch'
+git config --local user.email 'aitch7308@gmail.com'
+
+git config --local user.name 
+git config --local user.email
+
+
+=>Check List all Variables 
+git config -l
+git config -l --show-origin
+
+
+Remove List All Variables
+git config --local --unset user.name
+git config --local --unset user.email
+
+ls 
+ls -la 
+
+git status 
+
+=>Set Default Branch 
+git config --global init.defaultBranch main  
+
+

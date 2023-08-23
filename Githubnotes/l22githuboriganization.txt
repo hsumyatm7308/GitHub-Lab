@@ -1,0 +1,91 @@
+ => Github Origanization 
+
+ Github > H-Zai account > profile picture > Click "Your oigination" > Origanization >
+
+ click "New orgination"
+ click "Create a free organiztioon"
+
+ =>set up your oigination 
+ orgination account name = hzaiorganization
+ contact email = 
+ this Origanization belog to my personal 
+ check = "aj;fdks;f"
+ click "next"
+
+
+
+ =Add origiantion 
+ Github >dltaccount >profilepicture > Click "Your origanization"
+ Click "youroriginationacc"
+ Click "people" > "invite memeber"
+ search = "husmyat7308"
+ click "invite"
+ choose member or owner
+ click "sent invitation" 
+
+
+ =>Accept invitation 
+ check email and accept 
+
+
+github > dltaccount > your repositories > click "new" 
+
+ mkdir githublesson3> folder 
+
+ git init 
+ git remote add origin '  '
+ git remote -v 
+
+ touch file0.txt 
+ vim file0.txt 
+ Edit : write down 
+ this is the first line 
+ this is the second line 
+
+ cat file0.txt 
+
+
+ git status 
+ git add * 
+ git commit -m "file 0 added" 
+ git status 
+ git push -u origin main 
+
+
+
+=>Transferring a Repository to the Orginazition 
+github > dltaccount > your repositories > githublesson3 > setting 
+click "transfer ownership" > Transfer 
+New owner = Select one of my organizztions = hzaiorganization
+
+
+ =>Create new repositories in hzaiorganization
+ creact folder9 from github 
+it will be show in every member. 
+
+
+
+=Update from hzai to  hzaiorganization 
+Note :: before edit !! need ot fork this repository 
+click file0.txt 
+this is one 
+this is two 
+tis is three 
+
+
+Noted :: need pull reques cuz kotha is a member 
+Noted :: need merge from admin organiztioon acc 
+
+Noted :: Owner no need pull request 
+
+
+
+23 OG 
+
+
+
+
+
+
+
+
