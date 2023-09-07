@@ -84,6 +84,177 @@ Noted :: Owner no need pull request
 
 
 
+=>Foking Back to Your Regular account 
+dltaccount > your oganiztion > dltorganization > Repositories > githublesson8 > Click "Fock" > "Create Fork" 
+
+=>Updating Remote URL 
+git remote -v 
+git remote add upstream "url " 
+git remote -v 
+
+git fetch origin 
+git fetch upstream 
+
+=Create branch in org by dlt from github 
+orginationacc > new branch (new-acition) > Click 'create new branch'
+
+=>Create Branch in dlt by dlt from github
+click branch name = new-action 
+
+git status  
+git branch 
+git branch -a 
+ (action ma shi taw kaoung tway ko -a htal mar hide htar tar)
+
+ git fetch -all 
+
+ git branch 
+ git branch -a  
+
+ =Error can't checkout 
+ git checkout new-action 
+
+ =Solution 
+ git checkout -b new-action oritin/new-action 
+
+ git branch 
+ git pull  //already up to date 
+
+
+
+ =Create Branch in dlt by dlt from github 
+ Click "New Branch "
+ New branch name = operationg 
+
+
+ git branch - a
+ git fetch upstream 
+ git branch -a 
+
+ =Add New file from PC (dlt account)
+
+ git checkout naster  
+ touch file1.txt 
+ ls 
+ echo "Hello i am file1" > file1.txt 
+ cat file1.ytxt 
+ git status 
+ git add file1.txt 
+ git commit -m "A file1 grom pc "
+ git status 
+
+
+ git push -u origin master 
+ git push -u upstream master 
+
+
+ =Edit file from branch 
+
+ git branch 
+ git checkout new-action 
+ git branch 
+
+
+
+ vim file0.txt 
+ write down :thei is first 1 
+ this is file 2 
+
+
+ cat file0.txt 
+ git status 
+ git add file0.txt 
+ git commit -m "M file0"
+ git status 
+
+ git push -u origin new-action 
+ git push -u upstream new-action 
+
+ =Create new file from org by dlt github 
+ dltaccount > Your organization > dltorigazation  > repositories > githublesson8 > Click "opetion branch" > lcick "create new file "
+ file2,txt 
+  :: this is first comment 
+  this is second comment 
+
+
+  git fetch upstream 
+  #there we can check asap !!! no need to re-create branch again cuz upstream /operationg was unit name. anyway we can call by re-create 
+  git checkout operation 
+  (or)
+  git checkout 0b operation upstream/operation 
+  git branch -a 
+  git pull 
+ 
+
+
+
+
+=Create new file from org by kotha github 
+ kotha > Your organization > dltorigazation  > repositories > githublesson8 > Click "opetion branch" > lcick "create new file "
+ file3.txt 
+  :: this is first comment 
+  this is second comment 
+
+
+git checkout master 
+git branch 
+git checkout operation 
+git pull 
+
+
+
+=Create new file from org by kotha github 
+ kotha > Your organization > dltorigazation  > repositories > githublesson8 > Click "opetion branch" > lcick "create new file "
+ file3.txt 
+  :: this is first react  
+  this is second react 
+
+
+git checkout master 
+git branch 
+got fetch upstream 
+git checkout operation 
+git pull 
+ls 
+
+
+git checkout master 
+ls 
+
+git rebase master (upstrem/master)
+git pull 
+git pull origin master --rebase 
+
+=>Remote URL Remove & re-add 
+ Method 1 
+git remote -v 
+git config remote.upstream.url  "orginamtion git link " 
+git remote -v 
+
+Method 2 
+git remote -v 
+git remote set-url upstream "orginamtion git link " 
+git remote -v
+
+=Remote URL Remove
+git remote remove upstream  
+
+git remote add myorg  "link "
+git remote -v 
+
+git branch -a 
+git fetch myorg 
+git branch -a 
+git checkout -b shared myorg/shared 
+git branch 
+
+
+
+
+
+31OG 
+
+
 
 
 
