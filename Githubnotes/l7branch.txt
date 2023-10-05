@@ -16,6 +16,11 @@ git status
 
 git branch
 
+git branch (To see local branches )
+git branch -r (To see remote branches )
+git branch -a (To see all local branched and remote branches )
+
+
 
 git branch bugfix
 git branch 
@@ -24,8 +29,10 @@ git branch dev
 git branch 
 
 Note:-b = Create new branch
-git checkout -b new-feature
+git checkout -b new-feature (or) git switch -c new-feature 
 git branch 
+
+
 
 
 
