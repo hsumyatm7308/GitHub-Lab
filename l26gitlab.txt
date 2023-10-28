@@ -1,0 +1,124 @@
+=>Gitlab 
+
+cd gitlablesson1
+mkdir index.html 
+
+=>Default Branch 
+git config --global init.defaultbranch main 
+git status 
+
+git branch -M main 
+
+
+git init 
+git status 
+git remote add origin https://gitlab.com/JV230/gitlablesson1.git 
+git remote -v 
+git add index.html 
+git status 
+git commit -m "Added Index Page" 
+git staus 
+git push -uf origin main 
+
+
+** Error =>   remote: GitLab: You are not allowed to force push code to a protected branch on this project.
+
+gitlab > branch > View branch rukles > protected branch 
+
+git status 
+git push -uf origin main 
+
+
+=Edit html file 
+
+git status 
+git add * 
+git commit -m "modified "
+git push 
+
+
+=>Create Branch 
+git branch dev 
+git branch 
+git checkout dev 
+
+
+touch style.css
+ls 
+echo "p{color:red}" > style.css 
+cat style.css 
+git status 
+git add style.css 
+git commit -m "A Style.css" 
+git status 
+git push -uf origin dev 
+
+git switch -c new-feature 
+git switch -c new-feature 
+git branch 
+
+
+
+
+touch app.js
+ls 
+echo "console.log('hey')" > app.css 
+cat app.css 
+git status 
+git add app.css 
+git commit -m "A app.css" 
+git status 
+git push -uf origin new-feature 
+
+git switch -c new-feature 
+git switch -c new-feature 
+git branch 
+
+
+=>Merge Git Branch to main 
+
+git switch main 
+git branch 
+ls 
+git merge dev 
+ls 
+git status
+git merge new-feature 
+ls 
+git status 
+git push 
+
+
+git branch 
+gir branch bugfix 
+git branch opt 
+git branch 
+
+git push //Everything up-to-date 
+git branch -r 
+git push -u origin bugfix 
+git push --set-upstream origin opt 
+git branch -r 
+
+
+=>Delete Branch 
+
+git branch -D dev (to delete a local branch )
+git branch 
+git branch -r 
+
+git branch --delete dev 
+git push origin --delete dev( to delete a remote branch )
+
+
+
+=>Delete Project 
+
+Settings > General > Advance > Delete this project > Delete project 
+
+----------------------------------------------------
+
+
+=>SSH Connection 
+
+Profile Icon > Edit profile > SSH Keys > 
