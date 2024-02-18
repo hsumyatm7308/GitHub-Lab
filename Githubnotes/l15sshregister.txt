@@ -20,4 +20,7 @@ ssh-keygen -t rsa  (rsa = encript  tegnit)
               ed25519
 
 
+
+cat ~/.ssh/id_rsa.pub
+
 2 file  ya lar mal 
